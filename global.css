@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-segoe-ui: "Segoe UI";
+    --font-arial: Arial;
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+  
+    /* Colors */
+    --color-gray-100: #0f1419;
+    --color-white: #fff;
+    --color-dimgray: #536471;
+    --color-lightgray: #cfd9de;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-97xl: 116px;
+    --padding-160xl: 179px;
+    --padding-12xs-5: 0.5px;
+    --padding-smi-5: 12.5px;
+    --padding-5xs: 8px;
+    --padding-4xs: 9px;
+  
+    /* Border radiuses */
+    --br-9980xl: 9999px;
+  }
+  

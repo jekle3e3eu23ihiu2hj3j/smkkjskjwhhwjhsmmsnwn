@@ -1,0 +1,414 @@
+.overlayoverlayblur-icon {
+    align-self: stretch;
+    height: 53px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .heading-sign {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .svg-icon {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    min-height: 18px;
+  }
+  .sign-in-with {
+    flex: 1;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-family: var(--font-arial);
+    color: #3c4043;
+    text-align: center;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .container {
+    flex: 1;
+    overflow: hidden;
+    min-width: 84px;
+  }
+  .body-button,
+  .body-button-wrapper,
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .body-button {
+    cursor: pointer;
+    border: 1px solid #dadce0;
+    padding: var(--padding-4xs) 71px;
+    background-color: var(--color-white);
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .body-button-wrapper {
+    align-self: stretch;
+    padding: 0 0 var(--padding-smi-5);
+  }
+  .svg-icon1 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    min-height: 20px;
+  }
+  .sign-in-with1 {
+    position: relative;
+    font-size: var(--font-size-mini);
+    line-height: 20px;
+    font-family: var(--font-segoe-ui);
+    color: var(--color-gray-100);
+    text-align: center;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+    white-space: nowrap;
+  }
+  .button,
+  .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .container1 {
+    height: 20px;
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 0 0 var(--padding-12xs-5);
+    box-sizing: border-box;
+  }
+  .button {
+    cursor: pointer;
+    border: 1px solid var(--color-lightgray);
+    padding: var(--padding-5xs) 72px;
+    background-color: var(--color-white);
+    border-radius: var(--br-9980xl);
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .horizontal-divider {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-lightgray);
+  }
+  .horizontal-divider-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-4xs);
+  }
+  .or {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 16px;
+  }
+  .horizontal-divider1 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    background-color: var(--color-lightgray);
+  }
+  .horizontal-divider-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-4xs);
+  }
+  .divider-content {
+    width: 292px;
+    align-items: flex-end;
+    gap: 7.6px;
+  }
+  .container2,
+  .divider-content,
+  .label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .container2 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    height: 40px;
+    flex: 1;
+    overflow: hidden;
+    align-items: flex-end;
+    padding: 0 var(--padding-5xs) 16.5px;
+    box-sizing: border-box;
+    font-family: var(--font-segoe-ui);
+    font-size: 17px;
+    color: var(--color-dimgray);
+    min-width: 179px;
+    z-index: 1;
+  }
+  .label {
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid var(--color-lightgray);
+    align-items: flex-start;
+    padding: 15px 0 0;
+  }
+  .input-field {
+    height: 4px;
+    flex: 1;
+    position: relative;
+  }
+  .divider-content-parent,
+  .input-field-wrapper,
+  .label-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .input-field-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+  }
+  .divider-content-parent,
+  .label-parent {
+    flex-direction: column;
+  }
+  .divider-content-parent {
+    padding: 0 0 var(--padding-smi-5);
+    gap: 12.5px;
+  }
+  .next {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 33px;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .container3 {
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-12xs-5);
+    box-sizing: border-box;
+  }
+  .button-wrapper,
+  .button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .button1 {
+    flex: 1;
+    border-radius: var(--br-9980xl);
+    background-color: var(--color-gray-100);
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xl);
+  }
+  .button-wrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-smi-5);
+    text-align: center;
+    font-size: 14.3px;
+    color: var(--color-white);
+  }
+  .forgot-password {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-mini);
+    line-height: 20px;
+    font-family: var(--font-segoe-ui);
+    color: var(--color-gray-100);
+    text-align: center;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .button2,
+  .container4 {
+    display: flex;
+    flex-direction: row;
+  }
+  .container4 {
+    height: 20px;
+    width: 130.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-12xs-5);
+    box-sizing: border-box;
+  }
+  .button2 {
+    cursor: pointer;
+    border: 1px solid var(--color-lightgray);
+    padding: 6px var(--padding-xl);
+    background-color: transparent;
+    align-self: stretch;
+    border-radius: var(--br-9980xl);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .frame-parent,
+  .heading-sign-in-to-x-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    gap: 11.5px;
+    font-size: 16.3px;
+  }
+  .heading-sign-in-to-x-parent {
+    width: 300px;
+    gap: 32.5px;
+  }
+  .group-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 32px;
+  }
+  .sign-up {
+    color: #1d9bf0;
+  }
+  .dont-have-an-container {
+    position: relative;
+    line-height: 20px;
+  }
+  .dont-have-an-account-sign-up-wrapper {
+    width: 512.4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-mini);
+    color: var(--color-dimgray);
+  }
+  .dialog,
+  .group {
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .group {
+    flex: 1;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 107.5px;
+    box-sizing: border-box;
+    gap: 19.5px;
+  }
+  .dialog {
+    width: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .dialog,
+  .dialog-group,
+  .overlay,
+  .twittercom-by-htmltodesign {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .overlay {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    justify-content: center;
+    padding: 275px var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 31px;
+    color: var(--color-gray-100);
+    font-family: var(--font-segoe-ui);
+  }
+  .dialog-group,
+  .twittercom-by-htmltodesign {
+    justify-content: flex-start;
+  }
+  .dialog-group {
+    flex: 1;
+    max-width: 100%;
+  }
+  .twittercom-by-htmltodesign {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(#fff, #fff), #fff;
+    overflow-y: auto;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 975px) {
+    .overlay {
+      padding-top: var(--padding-160xl);
+      padding-bottom: var(--padding-160xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .heading-sign {
+      font-size: 25px;
+      line-height: 29px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .group,
+    .overlay {
+      box-sizing: border-box;
+    }
+    .group {
+      padding-bottom: 70px;
+    }
+    .overlay {
+      padding-top: var(--padding-97xl);
+      padding-bottom: var(--padding-97xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .heading-sign {
+      font-size: 19px;
+      line-height: 22px;
+    }
+    .body-button,
+    .button {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .heading-sign-in-to-x-parent {
+      gap: 16px;
+    }
+  }
+  
